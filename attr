@@ -1,0 +1,22 @@
+# Para comenzar empezaremos creando la clase Superheroe
+
+class superheroe
+	
+	# Existen elementos attr para acceder a las variables de la clase.
+
+	# attr_reader sirve como getter
+	attr_reader :villano
+
+	# attr_writer sirve como setter
+	attr_writer :ciudad
+
+	# attr_accessor sirve como getter y setter juntos
+	attr_accessor :superheroe
+
+	#Para probar defininimos nuestro constructor
+
+	def initialize ()
+
+
+	end
+end

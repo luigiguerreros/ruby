@@ -20,7 +20,7 @@ class SuperHeroe
 	
 	# Crearemos un contructor sin parametros:
 	def initialize # Ya no se colocan las variables porque ya no habra parametros ni tampoco parentesis
-		# Declaramos las varibles de instancia.
+		# Declaramos directamente las varibles de instancia.
 		# Esta vez se asigna un valor definido.
 		@nombre="Deadpool"
 		@villano="Siniestro"
@@ -29,12 +29,12 @@ class SuperHeroe
 
 	# Tambien existen constructores donde se pueden colocar valores por defecto con hash 
 	# Que tambien se pueden cambiar
-	def initialize (params={}) 
+	def initialize (parametros={}) 
 
 		# En cada variable intanciada le asignamos un hash que dara un valor por defecto 
-		@nombre=params.fetch(:nombre,'Spiderman')
-		@villano=params.fetch(:villano, 'Duende Verde')
-		@frase=params.fetch(:frase,'Un gran poder conlleva una gran responsabilidad') 
+		@nombre=parametros.fetch(:nombre,'Spiderman')
+		@villano=parametros.fetch(:villano, 'Duende Verde')
+		@frase=parametros.fetch(:frase,'Un gran poder conlleva una gran responsabilidad') 
 	end
 
 
