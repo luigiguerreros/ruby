@@ -1,0 +1,14 @@
+class Hola
+
+  attr_accessor :nombre , :villano , :frase
+  def initialize(parametros)
+    # En cada variable intanciada le asignamos un hash con la variable correspondeinte
+    @nombre = parametros[:nombre]
+    @villano = parametros[:villano]
+    @frase = parametros[:frase ]
+  end
+end
+
+letra=Hola.new(nombre: "Spiderman", villano: "Duende Verde"  , frase: "Un gran poder conlleva una gran responsabilidad")
+puts letra.nombre
+puts
