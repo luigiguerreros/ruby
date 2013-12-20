@@ -1,7 +1,7 @@
 # Aqui creamos una clase SuperHeroe
 
 class Comics
-         # Definimos nuestro constructor con el metodo initialize
+  # Definimos nuestro constructor con el metodo initialize
   def initialize(villano, lugar, superheroe)
   # Definimos nuestras variables de instancia
     @villano = villano
