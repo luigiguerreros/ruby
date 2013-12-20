@@ -1,7 +1,7 @@
 # Las clases se declaran asi:
 
 class  Superheroe
-            # Dentro de la clase se colocan los metodos
+  # Dentro de la clase se colocan los metodos
   def initialize
   end
 
